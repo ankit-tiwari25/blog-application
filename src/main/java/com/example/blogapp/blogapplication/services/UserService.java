@@ -8,5 +8,6 @@ public interface UserService {
     UserDto updateUser(UserDto userDto, Integer userId) throws Exception;
     UserDto getUserById(Integer userId);
     List<UserDto> getAllUsers();
+    void deleteUser(Integer userId);
 
 }
